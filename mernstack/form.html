@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- label for means it specified name for example this is for one i means it mention this element for own another -->
+   <form action="">
+    <fieldset>
+    <legend style="text-align: center;">Form</legend>
+    <label for="name"> student name</label>
+    <input id="name" type="text">
+<br>
+<label for="list">course</label>
+<select name="course" id="list">
+    <option value="css"> css</option>
+    <option value="java"> java</option>
+    <option value="python">python</option>
+    <option value="block chain"> blockchain</option>
+    <option value="dark net">dark net</option>
+</select>
+<label for="name" >
+    drop down list
+</label>
+<select name="number" >
+    <optgroup label="front">
+        <option value="html">html</option>
+        <option value="css">css</option>
+    </optgroup>
+    <optgroup label="backend">
+        <option value="mangodb">mangodb</option>
+        <option value="sql">sql</option>
+    </optgroup>
+</select>
+<button>
+    submit
+</button>
+<br>
+<label for="command"></label>
+<textarea name="description" id="command">
+description
+</textarea>
+
+    <label for="browsers">Choose browser</label>
+    <input type="text" list="browser"  id="browsers">
+    <datalist id="browser">
+        <option value="firefox">firefox</option>
+        <option value="firefox">firefox</option>
+        <option value="firefox">firefox</option>
+        <option value="firefox">firefox</option>
+    </datalist>
+    <label for="fname">names</label>
+    <input type="text" name="name">
+    <br>
+    <label for="date">Date</label>
+    <input type="date">
+    <br>
+    <label for="time">time</label>
+    <input id="time" type="time">
+<br>
+    <label for="month">calendar</label>
+    <input id="month" type="month">
+<br>
+<label for="round">Gender&nbsp;&nbsp; </label>
+    <label for="round button" >male</label>
+    <input id="round button" type="radio" name="gender">
+    <label for="round button">female</label>
+    <input id="round button" type="radio" name="gender" checked>
+    <br>
+   <label for="password">password</label>
+   <input type="password">
+   <label for="email">Email</label>
+   <input id="email" type="email">
+   <br>
+   <label for="range">Range</label>
+   <input id="range" type="range" name="range" min="100" max="200">
+   <label for="favcolor">favcolor</label>
+   <input type="color">
+   <br>
+   <label for="">upload file</label>
+   <input type="file">
+   <label for="">url</label>
+   <input type="link">
+    <label for="kart">enter</label>
+   <input  id="kart" type="hidden" name="brucelee" value="iam legend">
+    <input type="text" value="information" disabled>
+    <input type="text" value="information" readonly>
+    <br>
+    <label for="">chennai pincode</label>
+    <input type="text" required>
+    <label for="">zipcode</label>
+    <input type="text" maxlength="3">
+    <label for="">pin</label>
+    <input type="number" min="1001" max="1004">
+    <label for="">step</label>
+    <input type="number"  min="1000" step="500">
+    <input type="text" placeholder="karthik">
+    <input type="checkbox">
+    </fieldset>
+   </form> 
+</body>
+</html>

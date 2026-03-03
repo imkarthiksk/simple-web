@@ -1,0 +1,35 @@
+.karthik{
+    background-color: aqua;
+    border: 10px dashed blue;
+    background-clip:border-box;
+    margin: 40px;
+}
+
+.karthi{
+    background-color: blueviolet;
+    border: 20px dotted blue;
+    background-clip: content-box;
+    margin: 40px;
+
+}
+.k{
+    background-color: blueviolet;
+    border: 10px dashed black;
+    background-clip:padding-box;
+    margin: 40px;
+
+}
+.img{
+    background-image:linear-gradient(top,right,blue,red);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment:local;
+    background-blend-mode:darken;
+}
+.text{
+    /* /* background-image:linear-gradient(red 5%, green 10%,blue 20%); */
+    height: 300px;
+    width: 300px;
+    text-align: center; 
+background-image: radial-gradient( circle,red 5%, green 25%,blue 40%);
+}

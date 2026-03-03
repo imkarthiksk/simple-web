@@ -1,0 +1,90 @@
+/* /* .hero{
+   background-color: blue;
+   padding: 100px;
+   border: 2px solid;
+
+}
+*img{
+box-sizing: border-box;
+width: 100px;
+} 
+.content-box-example img{
+    width: 150px;
+    height: 100px;
+    padding: 200px;
+    border: 2px solid red;
+    box-sizing: content-box;
+    background-color: lightblue;
+  }
+  .border-box-example img{
+    width: 350px;
+    height: 300px;
+    padding: 120px;
+    border: 2px solid blue;
+    box-sizing: border-box;
+    background-color: lightgreen;
+  } */
+   /* .karthi{
+    display: flex;
+    background-color: aqua;
+
+   } */
+   /* .container{
+    background-color: aqua;
+    display: flex;
+    height: 500px;
+  
+   
+   
+   }
+   .container div{
+    color:black;
+    padding: 40px;
+    margin: 40px;
+    border: 2px,solid;
+    height: 50px;
+    
+
+   }
+   .main{
+    border: 2px solid;
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    padding: 20px;
+    background-color: black;
+    text-shadow: 2px 2px 3px red;
+   }
+   .main div{
+    color:black;
+    background-color: aqua;
+    padding: 20px;
+    border: 2px solid;
+    height: 100px;
+
+   }
+   #na{
+    align-self:flex-end;
+
+   } */
+   .con{
+    background-color: aqua;
+    height: 400px;
+    /* position: relative; */
+    padding: 40px;
+    
+    
+  
+
+   }
+   .con div{
+    color: brown;
+    border: 4px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    position: relative;
+    top: 50px;
+    left: 45px;
+    text-align: center;
+   }

@@ -1,0 +1,49 @@
+/* .karthik div{
+    color: blueviolet;
+    border: 2px solid;
+    margin: 20px;
+    display:inline-block;
+    background-color: black;
+    padding: 10px;
+} */
+
+/* .sta h1{
+    position:relative;
+    background-color: fuchsia;
+    border: 2px dashed blueviolet;
+    top: 20px;
+    left: 10px;
+    right: 10px;
+    bottom: 20px; 
+     name is relative. it will move lonely it is not affected any other content or element */
+
+ .container{
+    color: blue;
+    position: relative;
+    top: 20px;
+    right:20px ;
+    height: 400px;
+    width: 300px;
+     border: 2px solid black;
+}
+.container div{
+    border: 2px solid black;
+    position: absolute;
+    background-color: brown;
+    height: 20px;
+    width: 40px;
+    top: 80px;
+}  
+ /* .fixed img{
+    position: fixed;
+    left: 100px;
+    top: 70px;
+ } */
+/* .sticky h1{
+    background-color: aqua;
+    border: 2px solid red;
+    height: max-content;
+    position: sticky;
+    left:20px; */
+    
+

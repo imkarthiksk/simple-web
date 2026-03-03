@@ -1,0 +1,61 @@
+  /* div{
+    font-size: medium;
+    transition: height 2s;
+    height:100px;
+    width:400px;
+    display: flex;
+    justify-content: space-between;
+    transition-delay: 2s; 
+    transform:scaleY(2);
+    translate(50px);
+} 
+
+#div1{
+    transition-timing-function: linear;
+    background-color: red;
+
+}
+#div2{
+    transition-timing-function: ease;
+    background-color: yellow;
+    
+}
+#div3{
+    transition-timing-function: ease-in;
+    background-color: green;
+}
+#div4{
+    transition-timing-function: ease-out;
+    background-color: black;
+    color: white;
+}
+#div5{
+    transition-timing-function: ease-in-out;
+    background-color: aqua;
+}
+
+div:hover{
+    height:500px;
+}  */
+
+.karthi{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    /* transform: rotateX(45deg);
+    transform: rotateY(40deg); */
+    transform:rotate(150deg)
+}
+.karthi div{
+position: absolute;
+left: 40px;
+top: 50px;
+transform:rotate(150deg)
+}
+.re{
+    margin-top:70px;
+    /* transform: skewX(50deg); */
+    transform: skewY(10deg)
+
+}

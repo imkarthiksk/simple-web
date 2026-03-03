@@ -1,0 +1,19 @@
+.col{
+    color: blue;
+    background-color: white;
+    padding: 2px;
+    border: solid white 3px;
+    border-radius: 30%;
+}
+.co{
+    color: red;
+}
+.p{
+ display:block;
+    border: solid white 2px;
+    background-color: white;
+}
+.st{
+    border: solid white 2px;
+
+}
